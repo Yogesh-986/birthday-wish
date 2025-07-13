@@ -20,5 +20,21 @@
 
         <p class="love-msg">With all my love ❤️</p>
     </div>
+         <!-- Back Button -->
+        <a href="https://google.com" class="back-btn">🎁 Click for a Surprise</a>
+    </div>
+
+    <!-- Confetti Effect -->
+    <canvas id="confetti"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+        // Confetti on load
+        confetti({
+            particleCount: 150,
+            spread: 100,
+            origin: { y: 0.6 }
+        });
+    </script>
 </body>
 </html>
