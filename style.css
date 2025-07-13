@@ -84,3 +84,19 @@ body {
     pointer-events: none;
     z-index: 9999;
 }
+/* 🔧 Make it look better on small devices */
+@media screen and (max-width: 480px) {
+    .birthday-card h1 {
+        font-size: 1.8rem;
+    }
+
+    .gallery img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .back-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
