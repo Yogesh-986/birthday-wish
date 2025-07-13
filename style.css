@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.birthday-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 40px;
+    max-width: 600px;
+}
+
+.birthday-card h1 {
+    color: #ff4081;
+    font-size: 2.5rem;
+}
+
+.birthday-card p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.birthday-card img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.gallery img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid #ff4081;
+}
+
+.love-msg {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #d32f2f;
+    font-weight: bold;
+}
