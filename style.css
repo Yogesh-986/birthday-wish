@@ -52,7 +52,12 @@ body {
     margin: 5px;
     border: 2px solid #ff4081;
 }
-
+.gallery img:first-of-type {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    object-fit: cover;
+}
 .love-msg {
     margin-top: 20px;
     font-size: 1.3rem;
@@ -93,12 +98,7 @@ body {
     pointer-events: none;
     z-index: 9999;
 }
-.gallery img:first-of-type {
-    width: 80px;
-    height: 80px;
-    margin-top: 15px;
-    object-fit: cover;
-}
+
 .small-line {
     font-size: 1rem;
     color: #444;
