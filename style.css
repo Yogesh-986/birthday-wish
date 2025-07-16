@@ -72,21 +72,6 @@ body {
     margin-bottom: 15px;
     font-family: 'Segoe UI', cursive;
 }
-/* Back button */
-.back-btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ff4081;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background 0.3s;
-}
-
-.back-btn:hover {
-    background-color: #e73370;
-}
 
 /* Confetti canvas */
 #confetti {
@@ -101,23 +86,29 @@ body {
 
 .small-line {
     font-size: 1rem;
-    color: #444;
     font-style: italic;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Segoe UI', cursive;
 }
+
+/* Unique colors */
+.pink-line {
+    color: #e91e63; /* Bright pink */
+}
+
+.red-line {
+    color: #d32f2f; /* Soft romantic red */
+}
+
+.purple-line {
+    color: #8e24aa; /* Elegant purple */
+}
+
 .gallery img:nth-of-type(2) {
     margin-top: 15px; /* or 20px */
 }
-.cake-img {
-    width: 100%;
-    max-width: 320px;
-    margin-top: 20px;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
+
 
 
 /* 🔧 Make it look better on small devices */
