@@ -105,6 +105,9 @@ body {
     font-style: italic;
     margin-top: 10px;
 }
+.gallery img:nth-of-type(2) {
+    margin-top: 15px; /* or 20px */
+}
 
 /* 🔧 Make it look better on small devices */
 @media screen and (max-width: 480px) {
