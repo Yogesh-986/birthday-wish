@@ -110,15 +110,9 @@ body {
 .gallery img:nth-of-type(2) {
     margin-top: 15px; /* or 20px */
 }
-.favorite-frame {
+.color-text {
+    color: #d63384; /* rose pink */
     font-family: 'Segoe UI', cursive;
-    font-size: 1.6rem;
-    text-align: center;
-    margin-top: 20px;
-
-    background: linear-gradient(to right, #f72585, #7209b7);
-
-    -webkit-text-fill-color: transparent;
 }
 
 
